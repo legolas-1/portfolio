@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
-import $ from 'jquery';
 
 import Homepage from './components/Homepage/Homepage';
 

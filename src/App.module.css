@@ -2,7 +2,6 @@
   background: black;
   height: 100vh;
   font-size: 80px;
-  /* font-family: "Open Sans", sans-serif; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,7 +217,7 @@
   cursor: pointer;
 } */
 
-.pageHeader {
+/* .pageHeader {
   height: 100vh;
   background-color: black;
 }
@@ -267,7 +266,7 @@
   90% {
     transform: translate(10%, 10%);
   }
-}
+} */
 
 body {
   margin: 0;
