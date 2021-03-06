@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 0px 20px;
+  width: 250px;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.rating {
+  height: 60px;
+  width: 60px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1.5px solid #fff;
+  background: transparent;
+  /* margin: 20px; */
+}
+
+.ratingText {
+  color: #fff;
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transform: rotate(45deg); */
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 70%;
+
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+/* 
+.score10 {
+  transform: rotate(360deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+
+.score09 {
+  transform: rotate(180deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+
+.score08 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+
+.score07 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+.score06 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+.score05 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+.score04 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+.score03 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+
+.score02 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+
+.score01 {
+  transform: rotate(45deg);
+  border-top: 1.5px solid transparent;
+  border-left: 1.5px solid red;
+  border-right: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+} */
+
+/* .circ {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-color: gray;
+  border-top: 3px solid transparent;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  border-bottom: 3px solid red;
+  transform: rotate(45deg);
+} */

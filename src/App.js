@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import styles from './App.module.css';
+import $ from 'jquery';
 
-function App() {
+import Homepage from './components/Homepage/Homepage';
+
+const App = () => {
+
+  const [show, setShow] = useState(true);
+
+  const onClick = () => {
+    setShow(!show);
+  };
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    show ? (
+      <div className={`${styles.root} ${styles.pageHeader}`}>
+        <div className={`${styles.glitch} ${styles.click}`} onClick={onClick} data-text="Stay Hungry Stay Foolish">Stay Hungry Stay Foolish</div>
+      </div>
+    ) : (<Homepage> Clicked </Homepage >)
   );
 }
 

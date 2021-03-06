@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+.root1 {
+  background: url("/src/images/background.jpg");
+  height: 100%;
+  width: 100%;
+  /* background-size: cover; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  height: 100%;
+  /* width: 100%; */
+  /* height: 100vh; */
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  margin-left: 80px;
+}
+
+.text {
+  font-family: "Megrim", cursive;
+  font-size: 120px;
+  margin-left: -8px;
+  color: white;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.role {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 180px;
+  color: white;
+  cursor: pointer;
+}
+
+.role :nth-child(1) {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 800;
+  /* margin-left: 180px; */
+  color: white;
+  clip-path: inset(60% 0 0 0);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.role:hover :nth-child(1) {
+  transform: translateY(5px);
+  transition: 0.5s;
+}
+
+.role :nth-child(2) {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 800;
+  /* margin-left: 180px; */
+  color: white;
+  clip-path: inset(0 0 39% 0);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.role:hover :nth-child(2) {
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+/* .role:hover {
+  transform: translateY(20px);
+}
+
+.spanText2 {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 800;
+  color: white;
+  clip-path: inset(0 0 50% 0);
+  overflow: hidden;
+  cursor: pointer;
+} */
+
+.pageHeader {
+  /* filter: grayscale(); */
+}
+
+.pageHeader:before {
+  animation: grain 3s steps(5) infinite;
+  background-image: url("../../images/grain.png");
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity: 0.3;
+  position: fixed;
+  top: -100%;
+  width: 300%;
+  /* overflow: hidden; */
+}
+
+@keyframes grain {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(5%, 10%);
+  }
+  20% {
+    transform: translate(15%, 5%);
+  }
+  30% {
+    transform: translate(7%, 5%);
+  }
+  40% {
+    transform: translate(5%, 15%);
+  }
+  50% {
+    transform: translate(15%, 10%);
+  }
+  60% {
+    transform: translate(10%, 0%);
+  }
+  70% {
+    transform: translate(0%, 15%);
+  }
+  80% {
+    transform: translate(3%, 5%);
+  }
+  90% {
+    transform: translate(10%, 10%);
+  }
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 70%;
+
+  margin: auto;
+  flex-wrap: wrap;
+}
